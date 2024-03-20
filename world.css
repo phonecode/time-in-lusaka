@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    background-image: url('https://source.unsplash.com/2000x1000/?landscape');
+}
+#clockContainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    /*to make the height and width responsive*/
+    width: 40vw;
+    background: url(https://raw.githubusercontent.com/phonecode/lusaka-ony-clock/main/clipart-clock-icon-pattern-applications-web-user-interface-icon-design-vector-illustration-blank-clock-icon-225137382.webp) no-repeat;
+    /*setting our background image*/
+    background-size: 100%;
+}
+ 
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+ 
+#hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+ 
+#minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+ 
+#second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}
+
+div#clockContainer {
+    display: flex;
+    padding: 2em;
+    border-radius: 1000px;
+}
